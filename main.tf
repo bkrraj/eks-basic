@@ -1,7 +1,7 @@
 variable "eks_cluster_name" {}
 variable "region" {}
 variable "instance_type" {
-  default = "m5.large"
+  default = "t2.small"
 }
 variable "workers_additional_policies" {
   default = []
